@@ -1,0 +1,298 @@
+#!/usr/bin/python
+#MAU RECODE ??? IZIN DULU LAH,  MINIMAL TAG AKUN GITHUB MIMIN YANG MENGARAH KE AKUN INI, LEBIH GAMPANG SI PAKE FORK
+#KALAU DI ATAS TIDAK DI IKUTI MAKA AKAN MENDAPATKAN DOSA KARENA MIMIN GAK IKHLAS
+#“Wahai orang-orang yang beriman! Janganlah kamu saling memakan harta sesamamu dengan jalan yang batil,” (QS. An Nisaa': 29). Rasulullah SAW juga melarang umatnya untuk mengambil hak orang lain tanpa izin.
+
+# ============================
+# //  CODE BY FAISS | HUNX  //
+# ============================
+
+# ============================
+# // AMBIL MODULE / LIBRARY //
+# ============================
+
+import time
+from sys import stderr
+import os
+
+
+# VARIABLE BUAT WARNA CUYY
+Bl='\033[30m' 
+Re='\033[1;31m'
+Gr='\033[1;32m'
+Ye='\033[1;33m'
+Blu='\033[1;34m'
+Mage='\033[1;35m'
+Cy='\033[1;36m'
+Wh='\033[1;37m'
+
+for x in range(2):
+    os.system('clear')
+    print(f' \n {Ye}Loading Database Tunggu Sebentar 😛' )
+    time.sleep(1)
+    os.system('clear')
+    print(f' \n {Bl}Loading Database Tunggu Sebentar 🥴' )
+    time.sleep(1)
+
+os.system('clear')
+
+def LogoIP():
+# SUPPORT AKU BANG
+    print(f"\n {Wh}[{Ye}!{Wh}] Bantu upport dulu ya bang heheh")
+    time.sleep(2)
+    os.system("xdg-open https://github.com/HunxByts")
+    os.system('clear')
+    stderr.writelines(f"""
+{Wh}  _____________________
+{Wh} |  _________________  |
+{Wh} | |{Ye}SUBNETING IP  /24{Wh}| |
+{Wh} | |_________________| |
+{Wh} |  ___ ___ ___   ___  |
+{Wh} | | 7 | 8 | 9 | | + | | {Ye}---------------------
+{Wh} | |___|___|___| |___| | {Wh}TOOL BY FAISS | HUNX
+{Wh} | | 4 | 5 | 6 | | - | | {Wh}SUBENTING IP ADDRESS
+{Wh} | |___|___|___| |___| | {Wh}KELAS C  X  AI
+{Wh} | | 1 | 2 | 3 | | x | | {Ye}--------------
+{Wh} | |___|___|___| |___| |
+{Wh} | | . | 0 | = | | / | |
+{Wh} | |___|___|___| |___| |
+{Wh} |_____________________|
+
+{Wh} [{Ye}1{Wh}] TANYA PREFIX YANG COCOK BUAT CLIENT SAMA [{Ye}AI HUNX{Wh}]
+{Wh} [{Ye}2{Wh}] MULAI SUBNETING 
+{Wh} [{Ye}3{Wh}] KELUAR KALKULATOR
+""")
+LogoIP()
+
+def Hitung():
+    try:
+        USER_GET = input(f"\n [{Ye}●{Wh}] PILIH NOMOR [{Ye}1 - 3{Wh}] ●{Ye}>> {Wh}")
+    except KeyboardInterrupt:
+        print(f'{Ye}Keluar Kalkulator...')
+    if USER_GET == '1':
+        os.system('clear')
+        stderr.writelines(f"""
+
+  █████╗ ██╗      ██╗  ██╗██╗   ██╗███╗   ██╗██╗  ██╗
+ ██╔══██╗██║      ██║  ██║██║   ██║████╗  ██║╚██╗██╔╝
+ ███████║██║█████╗███████║██║   ██║██╔██╗ ██║ ╚███╔╝ 
+ ██╔══██║██║╚════╝██╔══██║██║   ██║██║╚██╗██║ ██╔██╗ 
+ ██║  ██║██║      ██║  ██║╚██████╔╝██║ ╚████║██╔╝ ██╗
+ ╚═╝  ╚═╝╚═╝      ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝╚═╝  ╚═╝
+   [{Ye}●{Wh}]KAMU BERTANYA AKU JAWAB SESUAI PERTANYAAN[{Ye}●{Wh}]
+""")
+        print(f"\n {Ye}[{Wh}AI-HUNX{Ye}] {Wh}>{Ye}> {Wh}MASUKAN CLIENT BIAR AKU KASIH TAU PREFIX YANG COCOK BUAT SUBNETING!")
+        def itunglagi(orang):
+            if orang == 0:
+                return(f"{Wh}PREFIX TIDAK BISA DI GUNAKAN, KARENA ITU PREFIX [/31] TOTAL IP [2] - [2] SISA 0 CLIENT!")
+            elif orang < 3:
+                return(f"{Wh}PREFIX YANG DI PAKAI ADALAH [/30], KARENA TOATAL IP [4] - [2] SISA [2] CLIENT!")
+            elif orang < 7:
+                return(f"{Wh}PREFIX YANG DI PAKAI ADALAH [/29], KARENA TOATAL IP [8] - [2] SISA [6] CLIENT!")
+            elif orang < 15:
+                return(f"{Wh}PREFIX YANG DI PAKAI ADALAH [/28], KARENA TOATAL IP [16] - [2] SISA [14] CLIENT!")
+            elif orang < 31:
+                return(f"{Wh}PREFIX YANG DI PAKAI ADALAH [/27], KARENA TOATAL IP [32] - [2] SISA [30] CLIENT!")
+            elif orang < 63:
+                return(f"{Wh}PREFIX YANG DI PAKAI ADALAH [/26], KARENA TOATAL IP [64] - [2] SISA [62] CLIENT!")
+            elif orang < 127:
+                return(f"{Wh}PREFIX YANG DI PAKAI ADALAH [/25], KARENA TOATAL IP [128] - [2] SISA [126] CLIENT!")
+            elif orang < 255:
+                return(f"{Wh}PREFIX YANG DI PAKAI ADALAH [/24], KARENA TOATAL IP [256] - [2] SISA [254] CLIENT!")
+            else:
+                return(f"{Wh}LOGIKA MU MANA, MANA ADA CLIENT {orang} DI PREFIX KELAS C !")
+        while True:
+            try:
+                orang = int(input(f" {Ye}[{Wh}USSER{Ye}] {Wh}>{Ye}> {Wh} "))
+                responBot = itunglagi(orang)
+                print(f" {Ye}[{Wh}AI-HUNX{Ye}] {Wh}>{Ye}> {Wh}{responBot}")
+            except KeyboardInterrupt:
+                print(f'{Ye}Keluar Bot...')
+                break
+    elif USER_GET == '2':
+        os.system('clear')
+        stderr.writelines(f"""
+    ______  _____  _  _________________  _______
+   / __/ / / / _ )/ |/ / __/_  __/  _/ |/ / ___/
+  _\ \/ /_/ / _  /    / _/  / / _/ //    / (_ / 
+ /___/\____/____/_/|_/___/ /_/ /___/_/|_/\___/
+          [{Ye}●{Wh}]  HITUNG SUBNETING  [{Ye}●{Wh}]
+""")
+        while True:
+            try:
+                oktet = input(f"\n Masukan IP address oktet ke 1 - 3 [Ex 192.168.1] : {Ye}")
+                prxif = int(input(f" {Wh}Masukan Prefix [Ex 24] : {Ye}"))
+            except KeyboardInterrupt:
+                print(f'{Ye}Keluar Kalkulator...')
+                break
+            if prxif == 24:
+                time.sleep(1)
+                print(f"""
+    {Ye}NETWORK              BROADCAST                USEFULL ATAU RANGE{Wh}
+    {oktet}.0         {oktet}.255             {oktet}.1 - {oktet}.254
+""")
+            elif prxif == 25:
+                time.sleep(1)
+                print(f"""
+    {Ye}NETWORK              BROADCAST                USEFULL ATAU RANGE{Wh}
+    {oktet}.0         {oktet}.127             {oktet}.1 - {oktet}.126
+    {oktet}.128       {oktet}.255             {oktet}.129 - {oktet}.254
+""")
+            elif prxif == 26:
+                time.sleep(1)
+                print(f"""
+    {Ye}NETWORK               BROADCAST               USEFULL ATAU RANGE{Wh}
+    {oktet}.0         {oktet}.63              {oktet}.1 - {oktet}.62
+    {oktet}.64        {oktet}.127             {oktet}.65 - {oktet}.126
+    {oktet}.128       {oktet}.191             {oktet}.129 - {oktet}.12
+    {oktet}.192       {oktet}.255             {oktet}.193 - {oktet}.254
+""")
+            elif prxif == 27:
+                time.sleep(1)
+                print(f"""
+    {Ye}NETWORK               BROADCAST               USEFULL ATAU RANGE{Wh}
+    {oktet}.0         {oktet}.31              {oktet}.1 - {oktet}.30
+    {oktet}.32        {oktet}.63              {oktet}.33 - {oktet}.62
+    {oktet}.64        {oktet}.95              {oktet}.65 - {oktet}.94
+    {oktet}.96        {oktet}.127             {oktet}.97 - {oktet}.126
+    {oktet}.128       {oktet}.159             {oktet}.129 - {oktet}.158
+    {oktet}.160       {oktet}.191             {oktet}.161 - {oktet}.190
+    {oktet}.192       {oktet}.223             {oktet}.191 - {oktet}.222
+    {oktet}.224       {oktet}.255             {oktet}.225 - {oktet}.254
+""")
+            elif prxif == 28:
+                time.sleep(1)
+                print(f"""
+    {Ye}NETWORK             BROADCAST                 USEFULL ATAU RANGE{Wh}
+    {oktet}.0         {oktet}.15              {oktet}.1 - {oktet}.14
+    {oktet}.16        {oktet}.31              {oktet}.17 - {oktet}.30
+    {oktet}.32        {oktet}.47              {oktet}.33 - {oktet}.46
+    {oktet}.48        {oktet}.63              {oktet}.49 - {oktet}.62
+    {oktet}.64        {oktet}.79              {oktet}.65 - {oktet}.78
+    {oktet}.80        {oktet}.95              {oktet}.81 - {oktet}.94
+    {oktet}.96        {oktet}.111             {oktet}.97 - {oktet}.110
+    {oktet}.112       {oktet}.127             {oktet}.113 - {oktet}.126
+    {oktet}.128       {oktet}.143             {oktet}.127 - {oktet}.142
+    {oktet}.144       {oktet}.159             {oktet}.145 - {oktet}.158
+    {oktet}.160       {oktet}.175             {oktet}.161 - {oktet}.174
+    {oktet}.176       {oktet}.191             {oktet}.177 - {oktet}.190
+    {oktet}.192       {oktet}.207             {oktet}.193 - {oktet}.206
+    {oktet}.208       {oktet}.223             {oktet}.209 - {oktet}.222
+    {oktet}.224       {oktet}.239             {oktet}.225 - {oktet}.238
+    {oktet}.240       {oktet}.255             {oktet}.241 - {oktet}.254
+""")
+            elif prxif == 29:
+                time.sleep(1)
+                print(f"""
+    {Ye}NETWORK             BROADCAST                 USEFULL ATAU RANGE{Wh}
+    {oktet}.0         {oktet}.7               {oktet}.1 - {oktet}.6
+    {oktet}.8         {oktet}.15              {oktet}.9 - {oktet}.14
+    {oktet}.16        {oktet}.23              {oktet}.17 - {oktet}.22
+    {oktet}.24        {oktet}.31              {oktet}.25 - {oktet}.30
+    {oktet}.32        {oktet}.39              {oktet}.33 - {oktet}.38
+    {oktet}.40        {oktet}.47              {oktet}.41 - {oktet}.46
+    {oktet}.48        {oktet}.55              {oktet}.49 - {oktet}.54
+    {oktet}.56        {oktet}.63              {oktet}.57 - {oktet}.62
+    {oktet}.64        {oktet}.71              {oktet}.65 - {oktet}.70
+    {oktet}.72        {oktet}.79              {oktet}.73 - {oktet}.78
+    {oktet}.80        {oktet}.87              {oktet}.81 - {oktet}.86
+    {oktet}.88        {oktet}.95              {oktet}.89 - {oktet}.94   
+    {oktet}.96        {oktet}.103             {oktet}.97 - {oktet}.102
+    {oktet}.104       {oktet}.111             {oktet}.105 - {oktet}.110
+    {oktet}.112       {oktet}.119             {oktet}.113 - {oktet}.118
+    {oktet}.120       {oktet}.127             {oktet}.121 - {oktet}.126
+    {oktet}.128       {oktet}.135             {oktet}.129 - {oktet}.134
+    {oktet}.136       {oktet}.143             {oktet}.137 - {oktet}.142
+    {oktet}.144       {oktet}.151             {oktet}.145 - {oktet}.150
+    {oktet}.152       {oktet}.159             {oktet}.153 - {oktet}.158
+    {oktet}.160       {oktet}.167             {oktet}.161 - {oktet}.166
+    {oktet}.168       {oktet}.175             {oktet}.169 - {oktet}.174
+    {oktet}.176       {oktet}.183             {oktet}.177 - {oktet}.182
+    {oktet}.184       {oktet}.191             {oktet}.185 - {oktet}.190
+    {oktet}.192       {oktet}.199             {oktet}.191 - {oktet}.189
+    {oktet}.200       {oktet}.207             {oktet}.201 - {oktet}.206
+    {oktet}.208       {oktet}.215             {oktet}.209 - {oktet}.214
+    {oktet}.216       {oktet}.223             {oktet}.217 - {oktet}.222
+    {oktet}.224       {oktet}.231             {oktet}.225 - {oktet}.230
+    {oktet}.232       {oktet}.239             {oktet}.233 - {oktet}.238
+    {oktet}.240       {oktet}.247             {oktet}.241 - {oktet}.246
+    {oktet}.248       {oktet}.255             {oktet}.249 - {oktet}.254
+""")
+            elif prxif == 30:
+                time.sleep(1)
+                print(f"""
+    {Ye}NETWORK             BROADCAST                  USEFULL ATAU RANGE{Wh}
+    {oktet}.0         {oktet}.3                {oktet}.1 - {oktet}.2
+    {oktet}.4         {oktet}.7                {oktet}.5 - {oktet}.6
+    {oktet}.8         {oktet}.11               {oktet}.8 - {oktet}.10
+    {oktet}.12        {oktet}.15               {oktet}.13 - {oktet}.14
+    {oktet}.16        {oktet}.19               {oktet}.17 - {oktet}.18
+    {oktet}.20        {oktet}.23               {oktet}.21 - {oktet}.22
+    {oktet}.24        {oktet}.27               {oktet}.25 - {oktet}.26
+    {oktet}.28        {oktet}.31               {oktet}.29 - {oktet}.30
+    {oktet}.32        {oktet}.35               {oktet}.33 - {oktet}.34
+    {oktet}.36        {oktet}.39               {oktet}.37 - {oktet}.38
+    {oktet}.40        {oktet}.43               {oktet}.41 - {oktet}.42
+    {oktet}.44        {oktet}.47               {oktet}.45 - {oktet}.46
+    {oktet}.48        {oktet}.51               {oktet}.49 - {oktet}.50
+    {oktet}.52        {oktet}.55               {oktet}.53 - {oktet}.54
+    {oktet}.56        {oktet}.59               {oktet}.57 - {oktet}.58
+    {oktet}.60        {oktet}.63               {oktet}.61 - {oktet}.62
+    {oktet}.64        {oktet}.67               {oktet}.65 - {oktet}.66
+    {oktet}.68        {oktet}.71               {oktet}.69 - {oktet}.70
+    {oktet}.72        {oktet}.75               {oktet}.73 - {oktet}.74
+    {oktet}.76        {oktet}.79               {oktet}.77 - {oktet}.78
+    {oktet}.80        {oktet}.83               {oktet}.81 - {oktet}.82
+    {oktet}.84        {oktet}.87               {oktet}.85 - {oktet}.86
+    {oktet}.88        {oktet}.91               {oktet}.89 - {oktet}.90
+    {oktet}.92        {oktet}.95               {oktet}.93 - {oktet}.94
+    {oktet}.96        {oktet}.99               {oktet}.97 - {oktet}.98
+    {oktet}.100       {oktet}.103              {oktet}.101 - {oktet}.102
+    {oktet}.104       {oktet}.107              {oktet}.105 - {oktet}.106
+    {oktet}.108       {oktet}.111              {oktet}.109 - {oktet}.110
+    {oktet}.112       {oktet}.115              {oktet}.113 - {oktet}.114
+    {oktet}.116       {oktet}.119              {oktet}.117 - {oktet}.118
+    {oktet}.120       {oktet}.123              {oktet}.121 - {oktet}.122
+    {oktet}.124       {oktet}.127              {oktet}.125 - {oktet}.126
+    {oktet}.128       {oktet}.131              {oktet}.129 - {oktet}.130
+    {oktet}.132       {oktet}.135              {oktet}.133 - {oktet}.134
+    {oktet}.136       {oktet}.139              {oktet}.137 - {oktet}.138
+    {oktet}.140       {oktet}.143              {oktet}.141 - {oktet}.142
+    {oktet}.144       {oktet}.147              {oktet}.145 - {oktet}.146
+    {oktet}.148       {oktet}.151              {oktet}.149 - {oktet}.150
+    {oktet}.152       {oktet}.155              {oktet}.153 - {oktet}.154
+    {oktet}.156       {oktet}.159              {oktet}.157 - {oktet}.158
+    {oktet}.160       {oktet}.165              {oktet}.161 - {oktet}.164
+    {oktet}.164       {oktet}.167              {oktet}.165 - {oktet}.166     
+    {oktet}.168       {oktet}.171              {oktet}.169 - {oktet}.170
+    {oktet}.172       {oktet}.175              {oktet}.173 - {oktet}.174
+    {oktet}.176       {oktet}.179              {oktet}.177 - {oktet}.178
+    {oktet}.180       {oktet}.183              {oktet}.181 - {oktet}.182
+    {oktet}.184       {oktet}.187              {oktet}.185 - {oktet}.186
+    {oktet}.188       {oktet}.191              {oktet}.189 - {oktet}.190
+    {oktet}.192       {oktet}.195              {oktet}.193 - {oktet}.194
+    {oktet}.196       {oktet}.199              {oktet}.197 - {oktet}.189
+    {oktet}.200       {oktet}.203              {oktet}.201 - {oktet}.202
+    {oktet}.204       {oktet}.207              {oktet}.205 - {oktet}.206
+    {oktet}.208       {oktet}.211              {oktet}.209 - {oktet}.210
+    {oktet}.212       {oktet}.215              {oktet}.213 - {oktet}.214
+    {oktet}.216       {oktet}.219              {oktet}.217 - {oktet}.218
+    {oktet}.220       {oktet}.223              {oktet}.221 - {oktet}.222
+    {oktet}.224       {oktet}.227              {oktet}.225 - {oktet}.226
+    {oktet}.228       {oktet}.231              {oktet}.229 - {oktet}.230
+    {oktet}.232       {oktet}.235              {oktet}.233 - {oktet}.234
+    {oktet}.236       {oktet}.239              {oktet}.237 - {oktet}.238
+    {oktet}.240       {oktet}.243              {oktet}.241 - {oktet}.242
+    {oktet}.244       {oktet}.247              {oktet}.245 - {oktet}.246
+    {oktet}.248       {oktet}.251              {oktet}.249 - {oktet}.250
+    {oktet}.252       {oktet}.255              {oktet}.253 - {oktet}.254
+""")
+            elif prxif == 31 or prxif == 32:
+                print(f" \n{Wh}[{Ye}!{Wh}] TIDAK ADA SUBNETING!")
+                break
+            elif prxif > 32 or prxif < 24:
+                print(f" \n{Wh} [{Ye}!{Wh}] Prefix diluar kelas {Ye}C!")
+                break
+    elif USER_GET == '3':
+        print(f' \n {Wh}[{Ye}!{Wh}] Keluar Kalkulator...')
+Hitung()
